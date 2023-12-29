@@ -14,7 +14,7 @@ function Tools(){
     {skills.map(tool=> (        
             <div className='box-content'>    
                <div className='box-icon'>
-               {tool.skill=='React' || tool.skill =='VueJS' || tool.skill=='TailwindCSS' ? 
+               {tool.skill==='React' || tool.skill ==='VueJS' || tool.skill==='TailwindCSS' ? 
                 <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
                 <g fill='#0ea33c'>                 
                 <path d={tool.icon} key={tool.skill}></path>
