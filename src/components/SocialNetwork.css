@@ -1,60 +1,50 @@
 .social-heading{
-    font-size: 40px;
-    color: #14e956;
+    font-size:30px;
+    color: #000000;
     font-family: Cyborg;
     font-weight: 900;
-    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     text-transform: uppercase;
     align-items: center;
-    background: #12141d;
     border-radius: 12px;
-    box-shadow: inset 0 0 4px 1px #14e956;
-    -webkit-box-shadow: inset 0 0 4px 1px #14e956;
-    -moz-box-shadow: inset 0 0 4px 1px #14e956;
     display: flex;
     justify-content: center;
     padding: 0.8rem 2rem;
     width: max-content;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 89px;
 }
 
 .social-network-each-link{
     display: flex;
     align-items: center;
-    width: 216px;
     gap: 67px;
-    background: #333;
-    color: #d6d6d6;
+    color: var(--social-network-img);
     cursor: pointer;
     height: 4rem;
     position: relative;
-    padding-left: 10px;
     
 }
 
 .social-network-section{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 2rem;
 }
 
 .social-network-section-two{
     display: flex;
-    margin-left: 4px;
+    padding-right: 15px;
+    gap: 10px;
 
 }
 
 .social-links{
- color: white;
+ color: var(--social-network-img);
  font-size: 1.2rem;
  font-weight: 600;
 }
 
 .social-link-img{
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
 }
 
 .social-link-img img{

@@ -1,20 +1,15 @@
 .skill{
-    color: white;
+    color: #e5e7eb;
 }
 
 .tools-heading{
     font-size: 40px;
-    color: #14e956;
+    color: var(--tools-heading);
     font-family: Cyborg;
     font-weight: 900;
-    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     text-transform: uppercase;
     align-items: center;
-    background: #12141d;
     border-radius: 12px;
-    box-shadow: inset 0 0 4px 1px #14e956;
-    -webkit-box-shadow: inset 0 0 4px 1px #14e956;
-    -moz-box-shadow: inset 0 0 4px 1px #14e956;
     display: flex;
     justify-content: center;
     margin-bottom: 5rem;
@@ -27,7 +22,7 @@
     justify-content: center;
     padding-top: 15px;
     align-items: center;
-    background: #0c8c34;
+    background: var(--box-content-bg-color);
     border-radius: 15px;
     display: flex;
     flex-wrap: wrap;
@@ -36,6 +31,7 @@
     margin-left: 5rem;
     margin-right: 5rem;
     margin-bottom: 5rem;
+    row-gap: 43px;
 }
 
 .tools-section{
@@ -43,6 +39,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-top: 36px;
 }
 
 .skill{
@@ -50,13 +47,17 @@
 }
 
 .box-icon{
-    width: 30px;
+    width: 78px;
     height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .box-content{
     align-items: center;
-    background: #021709;
+    background: var(--box-content-bg-color);
+    color: var(--box-content-text-color);
     border-radius: 8px;
     display: flex;
     flex: 0 1 18%;
@@ -64,6 +65,9 @@
     justify-content: space-evenly;
     margin: 1%;
     width: 130px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
 }
 
 .icon{
@@ -75,5 +79,5 @@
     font-size: 18px;
     font-weight: 700;
     text-transform: capitalize;
-    color: white;
+    color: #e5e7eb;
 }

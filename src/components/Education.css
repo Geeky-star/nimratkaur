@@ -1,0 +1,58 @@
+.education-s-heading{
+    margin-bottom: 10px;
+    color: var(--heading-text-color);
+    font-size: 2.5rem;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.education-box{
+    width: 800px;
+    border: 1px solid grey;
+    padding:20px 
+}
+
+.education-box-item{
+    display: flex;
+    align-items: center;
+    gap:20px 
+}
+
+.title-gpa{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.education-box-item{
+    display:flex;
+    align-items:center;
+    gap:20px 
+}
+
+.education-title{
+    color:var(--heading-text-color);
+    font-size:3vh;
+    font-weight:bold;
+}
+
+@media (max-width:768px){
+    .education-box{
+       width: auto;
+       margin: 10px;
+       flex-direction: column;
+       display: flex;
+    }
+    .education-box-item{
+    flex-direction: column;
+    }
+    .title-gpa{
+        flex-direction: column;
+    }
+    .education-box-item{
+        flex-direction: column;
+    }
+    .education-s-heading{
+        font-size: 1.5rem;
+    }
+}

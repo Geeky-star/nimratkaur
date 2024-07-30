@@ -1,6 +1,86 @@
 body{
-  background-color: #050810;
+  background-color: white;
  }
+
+ /* App.css */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+/* Introduction.css */
+.Introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.intro {
+  margin-top: 40px;
+  width: 90vh;
+  text-align: left;
+  margin-left: 20vh;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.avatar {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.name p {
+  margin: 0;
+  font-size: 3rem;
+  color: #208CCC;
+  font-weight: bolder;
+}
+
+.roles {
+  margin-top: 10px;
+}
+
+.experience-description {
+  margin-top: 10px;
+}
+
+.intro-social {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-network-each-link {
+  margin: 0 10px;
+}
+
+.social-links {
+  color: inherit;
+  text-decoration: none;
+}
+
+.social-link-img i {
+  font-size: 2rem;
+}
 
 span{
   color: white;
@@ -8,8 +88,8 @@ span{
 
 .name{
   font-size: 20px;
-  color: #14e956;
-  background: rgba(20,233,88,.157);
+  color: #208CCC;
+ 
   align-items: center;
   display: flex;
   font-size: .85rem;
@@ -22,13 +102,12 @@ span{
   font-size: 2.6rem;  
   font-weight: 900;
   letter-spacing: .02em;
-  margin: 0.4rem;
   text-transform: capitalize;
   text-align: left;
 }
 
 .roles span{
-  color: #14e956;
+  color: #208CCC;
 }
 
 .experience-description{
@@ -39,7 +118,7 @@ font-weight: 700;
 letter-spacing: .04em;
 margin: 0.2rem;
 opacity: .8;
-text-transform: lowercase;
+text-transform: capitalize;
 }
 
 .heading-section{
@@ -51,11 +130,6 @@ text-transform: lowercase;
   margin-bottom: 5rem;
   padding: 90px;
   padding-top: 10%;
-}
-
-i{
-  color: white;
-  background-color: white;
 }
 
 .App {
@@ -71,4 +145,17 @@ width: 100%;
   display: flex;
   flex-direction: column;
   margin-top: 80px;
+}
+
+.homepage-top{
+  /*  background-image: url("/src/components/background.svg");
+    background-size: cover; */
+    width: 1517px;
+    height: 590px;
+   
+}
+
+.homepage-top-section{
+ /* background-color: black; */
+  height: 730px;
 }

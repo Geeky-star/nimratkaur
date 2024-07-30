@@ -1,3 +1,8 @@
+#Things to do in portfolio
+
+1. make projects page better
+3. make footer better
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,151 @@
+/* General Styles */
+.navbar {
+    margin-top: 10px;
+    z-index: 1100;
+    position: relative;
+    background-color: white;
+    border-radius: 45px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #208CCC;
+    /* padding: 10px; */
+    border-radius: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  
+  .navbar-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #208CCC;
+  }
+  
+  .nav-menu {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-menu a {
+    color: white;
+    font-weight: 600;
+  }
+
+  
+  
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .menu-icon div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+  }
+
+body.light-theme {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --nav-bg-color: #f0f0f0;
+  --heading-bg-color: #ffffff;
+  --heading-text-color:#000000;
+  --intro-name-text: #000000;
+  --experience-desc: #000000;
+  --social-network-img: #808080;
+  --tools-heading:#000000;
+  --box-content-bg-color: #ffffff;
+  --box-content-text-color: #000000;
+  --jobs-desc: #000000;
+}
+
+body.dark-theme {
+  --bg-color: #1f1f1f;
+  --text-color: #ffffff;
+  --nav-bg-color: #1f1f1f;
+  --heading-bg-color: #000000;
+  --heading-text-color: #ffffff;
+  --intro-name-text: #ffffff;
+  --experience-desc: #ffffff;
+  --social-network-img: #ffffff;
+  --tools-heading:#ffffff;
+  --box-content-bg-color: ##1f1f1f;
+  --box-content-text-color: #ffffff;
+  --jobs-desc:#000000;
+}
+
+i{
+  color: var(--social-network-img);
+  font-size: 25px;
+  background: none;
+}
+
+.navbar {
+  background-color: var(--nav-bg-color);
+  color: var(--text-color);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.project-heading{
+  color: var(--heading-text-color);
+  background-color: var(--heading-bg-color);
+}
+
+.experience-description{
+  color: var(--experience-desc);
+}
+
+/* Additional styles for the navbar, menu icon, and links can be added here */
+
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .nav-menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: #208CCC;
+      width: 100%;
+      text-align: center;
+      border-radius: 0 0 10px 10px;
+    }
+  
+    .nav-menu.open {
+      display: flex;
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+  
+    .menu-icon.open .bar1 {
+      transform: rotate(-45deg) translate(-5px, 6px);
+    }
+  
+    .menu-icon.open .bar2 {
+      opacity: 0;
+    }
+  
+    .menu-icon.open .bar3 {
+      transform: rotate(45deg) translate(-5px, -6px);
+    }
+  }
+

@@ -1,0 +1,162 @@
+.experience-section{
+    margin-top: 52px;
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 100px;
+
+} 
+
+.vertical-timeline vertical-timeline--animate vertical-timeline--two-columns{
+    width: 90%;
+}
+
+.vertical-timeline-element-icon bounce-in{
+    background: #f3f4f6;
+    box-shadow: none;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    text-align: left;
+    padding: 1.3rem 2rem;
+}
+
+.experience-s-heading{
+    margin-bottom: 100px;
+    color: var(--heading-text-color);
+    font-size: 2.5rem;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.experience-heading{
+text-transform: capitalize;
+font-weight: 600;
+font-size: 1rem;
+margin-bottom: 1rem;
+color: black;
+}
+
+.experience-designation{
+    font-size: 1rem;
+    margin: 1em 0 0;
+    line-height: 1.6;
+    font-weight: 500;
+    color: black;
+}
+
+.vertical-timeline-element-content bounce-in{
+    margin-left: 0;
+    width: 44%;
+    border-radius: 50%;
+    background-color: black;
+    border: 3px solid black; 
+
+}
+
+
+.vertical-timeline-element-content bounce-in span{
+    margin-left: 0;
+    width: 44%;
+    border-radius: 50%;
+    background-color: black !important;
+    border: 6px solid black !important; 
+    color: black;
+}
+
+
+
+.vertical-timeline-element-content{
+    position: relative;
+    border-radius: 0.25rem;
+    width: 32%;
+    box-shadow: 0 3px 0 #ddd;
+    margin-left: 100px;
+    background-color: #f3f4f6;
+    padding: 1em;
+    -webkit-box-shadow: 0 3px 0 #ddd;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    text-align: left;
+}
+
+.e-experience-description p{
+    font-size: 1rem;
+    margin: 1em 0 0;
+    line-height: 1.6;
+}
+
+.e-experience-description{
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: .04em;
+    margin: 0.2rem;
+    opacity: .8;
+    text-transform: capitalize;
+    margin-top: 17px;
+    color: var(--jobs-desc);
+}
+
+
+.vertical-timeline-element-date{
+    position: absolute;
+    width: 100%;
+    left: 124%;
+    top: 6px;
+    font-size: 1rem;
+    float: left;
+    padding: 0.8em 0;
+    opacity: 0.7;
+    display: inline-block;
+    font-weight: 500;
+    color: var(--heading-text-color);
+}
+
+
+#experience-2{
+    float: right;
+    margin-right: 35px;
+}
+
+.vertical-timeline-element-date-2 {
+    position: relative;
+    left: 28%;
+    top: 67px;
+    font-size: 1rem;
+    float: left;
+    padding: 0.8em 0;
+    opacity: 0.7;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.vertical-timeline-element-icon bounce-in-2{
+    position: absolute;
+    left: 747px;
+}
+
+.vertical-timeline-element-date-2 span{
+    color: var(--heading-text-color) !important;
+}
+.vertical-timeline-element-icon bounce-in-2 span svg{
+    color: black !important;
+}
+
+.vertical-timeline.vertical-timeline--animate.vertical-timeline--two-columns {
+    width: 90%;
+    position: relative; /* Add relative positioning to create a stacking context */
+    margin: 39px auto; /* Center the timeline */
+}
+
+.vertical-timeline.vertical-timeline--animate.vertical-timeline--two-columns::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%; /* Adjust the position based on your layout */
+    border-left: 2px solid #ddd; /* Adjust the style of the line */
+    z-index: -1;
+}
+
+@media (max-width:768px) {
+    .experience-s-heading{
+        font-size: 1.5rem;
+    }
+}
+
