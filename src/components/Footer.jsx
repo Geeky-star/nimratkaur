@@ -28,14 +28,14 @@ export default function Footer(){
         </a>
        </div>
        <div className='social-network-each-link'>
-        <a className='social-links' href="#">
+        <a className='social-links' href="https://www.linkedin.com/in/nimratkaur90/">
         <div className='social-link-img'>
         <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/twitterx--v1.png" alt="twitterx--v1"/>
       </div>
         </a>
        </div>
        <div className='social-network-each-link' style={{color: "#cce4f0"}}>
-        <a className='social-links' href='#'>
+        <a className='social-links' href='https://www.linkedin.com/in/nimratkaur90/'>
         <div className='social-link-img'>
         <img width="69" height="69" src="https://img.icons8.com/color/96/youtube-play.png" alt="youtube-play"/>
        </div>
