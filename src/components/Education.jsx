@@ -8,7 +8,7 @@ return (
        <span className='education-s-heading'>My Education</span>
        <div className='education-box'>
        <div className='education-box-item'>
-        <img src={gbc} style={{width:'90px'}}></img>
+        <img src={gbc} style={{width:'90px'}} alt=''></img>
         <div style={{display:'flex',flexDirection:'column',alignItems:'baseline','width': '-webkit-fill-available'}}>
         <div style={{display:'flex','justifyContent':'space-between',alignItems:'baseline','width': '-webkit-fill-available'}}>
         <span className='education-title'>George Brown College</span>
@@ -23,7 +23,7 @@ return (
         
        <div className='education-box'>
        <div className='education-box-item'>
-        <img src={iiitb} style={{width:'90px'}}></img>
+        <img src={iiitb} style={{width:'90px'}} alt=''></img>
         <div style={{display:'flex',flexDirection:'column',alignItems:'baseline','width': '-webkit-fill-available'}}>
         <div className='title-gpa'>
         <span className='education-title'>Indian Institute of Information Technology, Bhopal</span>

@@ -26,7 +26,7 @@ function Tools(){
     {skills.map(tool=> (        
             <div className='box-content'>    
                <div className='box-icon'>
-               <img src={tool.image}/>
+               <img src={tool.image} alt={tool.skill}/>
                {tool.skill}
                </div>
                 </div>

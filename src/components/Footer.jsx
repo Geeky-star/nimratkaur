@@ -28,7 +28,7 @@ export default function Footer(){
         </a>
        </div>
        <div className='social-network-each-link'>
-        <a className='social-links' href="">
+        <a className='social-links' href="#">
         <div className='social-link-img'>
         <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/twitterx--v1.png" alt="twitterx--v1"/>
       </div>

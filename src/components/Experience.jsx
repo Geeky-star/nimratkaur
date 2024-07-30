@@ -19,7 +19,7 @@ function Experience(){
                                 <div class="vertical-timeline-element-content bounce-in">
                                     <div class="vertical-timeline-element-content-arrow"></div>
                                     <div style={{'display':'flex','alignItems':'center'}}>
-                                        <img src={ericsson} style={{'height':'50px','width':'50px'}}></img>
+                                        <img alt='' src={ericsson} style={{'height':'50px','width':'50px'}}></img>
                                         <div style={{display:'flex',alignItems:'baseline',flexDirection:'column'}}>
                                         <p class="experience-designation" style={{margin:'0'}}>
                                     Ericsson</p>
@@ -56,8 +56,8 @@ Built frontend features, performed end-to-end testing, and deployed on internal 
                                 <div class="vertical-timeline-element-content bounce-in-2" id="experience-2">
                                     <div class="vertical-timeline-element-content-arrow" id="experience-2"></div>
                                    <div style={{'display':'flex','alignItems':'center',gap:'15px'}}>
-<img src={drdo} style={{'height':'75px','width':'75px',borderRadius:'50%'}}></img>
-<div style={{display:'flex',alignItems:'baseline',flexDirection:'column'}}>
+<img src={drdo} style={{'height':'75px','width':'75px',borderRadius:'50%'}} alt=''></img>
+<div style={{display:'flex',alignItems:'baseline',flexDirection:'column'}} >
 <p class="experience-designation" style={{margin:'0'}}>
 DRDO, Delhi</p>
 <h3 class="experience-heading" style={{margin:'0'}}>Research Intern</h3>
@@ -91,7 +91,7 @@ Developed a Sequential model for predicting bits of plain text at specific posit
                                 <div class="vertical-timeline-element-content bounce-in">
                                     <div class="vertical-timeline-element-content-arrow"></div>
                                <div style={{'display':'flex','alignItems':'center',gap:'15px'}}>
-                                <img src={coolage} style={{'height':'75px','width':'105px',borderRadius:'70%'}}></img>
+                                <img alt='' src={coolage} style={{'height':'75px','width':'105px',borderRadius:'70%'}}></img>
                                 <div style={{display:'flex',alignItems:'baseline',flexDirection:'column'}}>
                                 <p class="experience-designation" style={{margin:'0'}}>
                                     Coolage
