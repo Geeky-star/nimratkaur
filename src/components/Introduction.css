@@ -43,7 +43,7 @@
 
 .intro-social{
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: baseline;
     width: 20%;
     margin-left: 0vh;
