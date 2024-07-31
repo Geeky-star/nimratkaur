@@ -102,7 +102,7 @@ Developed a Sequential model for predicting bits of plain text at specific posit
                                </div>
                                     
                                     <p class="e-experience-description">
-                                    Worked on website of Coolage startup using HTML, CSS, and JavaScript. 
+Developed the main homepage of Coolage's website using HTML, CSS, and JavaScript, ensuring responsiveness across 90% of available devices.
                                         </p>
                                         <span class="vertical-timeline-element-date">May 2020 - June 2020</span>
                                         </div>

@@ -76,7 +76,7 @@ body.dark-theme {
   --bg-color: #1f1f1f;
   --text-color: #ffffff;
   --nav-bg-color: #1f1f1f;
-  --heading-bg-color: #000000;
+  --heading-bg-color: #1f1f1f;
   --heading-text-color: #ffffff;
   --intro-name-text: #ffffff;
   --experience-desc: #ffffff;
@@ -85,6 +85,10 @@ body.dark-theme {
   --box-content-bg-color: ##1f1f1f;
   --box-content-text-color: #ffffff;
   --jobs-desc:#000000;
+}
+
+.social-link-img i{
+  color: var(--social-network-img);
 }
 
 i{

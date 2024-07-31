@@ -14,8 +14,8 @@ export default function Introduction() {
                         Hi there, I am
                         <p style={{ margin: '0', fontSize: '3rem', color: '#208CCC', fontWeight: 'bolder' }}>Nimratpreet Kaur</p>
                     </span>
-                    <span className='roles'><span>A Software Engineer</span>, <span>Frontend Engineer</span>, <span>JavaScript Developer</span></span>
-                    <span className='experience-description'>I am a Software Engineer with 2+ years of experience, recognized as a practical and effective developer delivering significant impact on projects. Experienced in collaborating with teams and working under pressure to deliver features within deadlines.</span>
+                    <span className='roles'><span>A Software Engineer</span>, <span>Frontend Engineer</span>, <span>Mobile Application Developer</span></span>
+                    <span className='experience-description'>I demonstrate strong proficiency in Kotlin, Swift, and front-end technologies. I have utilized my programming skills to develop several mobile applications during my academic journey at George Brown College. I am committed to continuous learning and leveraging the latest technology to build mobile applications with optimal security, I am an excellent team collaborator with strong analytical and problem-solving skills.</span>
                
                 </div>
                 
@@ -35,9 +35,9 @@ export default function Introduction() {
                     </a>
                 </div>
                 <div className='social-network-each-link'>
-                    <a className='social-links' href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                    <a className='social-links' href="https://x.com/Npk74091070" target="_blank" rel="noopener noreferrer">
                         <div className='social-link-img'>
-                            <i className="bi bi-twitter"></i>
+                            <i className="bi bi-twitter-x"></i>
                         </div>
                     </a>
                 </div>

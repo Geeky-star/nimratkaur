@@ -45,7 +45,7 @@
 
 .single-project{
     display: flex;
-    width: 60%;
+    width: 150vh;
     height: 300px;
     margin: auto;
     background-color: #e5e7eb;
