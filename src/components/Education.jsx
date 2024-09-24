@@ -16,16 +16,17 @@ export default function Education() {
               <span className="education-title">George Brown College</span>
               <p className="education-gpa">GPA: 4/4</p>
             </div>
-            <p className="education-program">Mobile Application Development and Strategy</p>
+            <p className="education-program">Master in Information Technology</p>
           {/*  <p className="education-date">January 2024 - Present</p> */}
           </div>
         </div>
         <div className="education-description">
           <ul className="education-list">
-            <li>Specialized in crafting user-friendly and visually captivating interfaces for mobile applications, prioritizing intuitive design principles to enhance user engagement.</li>
-            <li>Proficiently engineered complete mobile applications from inception to execution, adeptly addressing requirements for both iOS and Android platforms, ensuring smooth operation and exceptional user satisfaction.</li>
-            <li>Successfully implemented robust Authentication and Authorization mechanisms to safeguard user data and ensure secure access within Firebase environments.</li>
-            <li>Seamlessly integrated diverse APIs into mobile applications, facilitating data retrieval from external sources and unlocking enhanced functionalities for users.</li>
+            <li>Mastered advanced optimization techniques, including algorithmic complexity analysis and space-time tradeoffs, to design efficient and scalable software solutions.</li>
+            <li>Acquired hands-on experience in designing and building full-fledged software solutions from concept to deployment, applying best practices for both frontend and backend development.</li>
+            <li>Gained proficiency in building robust and fault-tolerant systems, implementing redundancy, error handling, and recovery techniques to ensure high availability and reliability.</li>
+            <li>Learned to apply load balancing, caching strategies, and database indexing to enhance system performance and ensure quick response times in high-traffic applications.</li>
+         <li>Enhanced problem-solving skills through hands-on experience with real-world scenarios, enabling the development of scalable architectures using microservices and modern frameworks.</li>
           </ul>
         </div>
       </div>
