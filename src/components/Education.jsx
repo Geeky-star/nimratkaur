@@ -17,7 +17,7 @@ export default function Education() {
               <p className="education-gpa">GPA: 4/4</p>
             </div>
             <p className="education-program">Mobile Application Development and Strategy</p>
-            <p className="education-date">January 2024 - Present</p>
+          {/*  <p className="education-date">January 2024 - Present</p> */}
           </div>
         </div>
         <div className="education-description">
@@ -40,7 +40,7 @@ export default function Education() {
               <p className="education-gpa">GPA: 9.1/10</p>
             </div>
             <p className="education-program">Bachelor of Technology, Information Technology (IT)</p>
-            <p className="education-date">August 2018 - May 2022</p>
+            {/* <p className="education-date">August 2018 - May 2022</p>*/ }
           </div>
         </div>
         <div className="education-description">
