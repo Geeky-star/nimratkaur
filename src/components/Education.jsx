@@ -1,6 +1,5 @@
 import './Education.css';
 import iiitb from '../assets/iiitb.jpg';
-import gbc from '../assets/gbc.jpg';
 
 export default function Education() {
   return (
