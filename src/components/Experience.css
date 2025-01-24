@@ -44,7 +44,6 @@ color: black;
 
 .vertical-timeline-element-content bounce-in{
     margin-left: 0;
-    width: 44%;
     border-radius: 50%;
     background-color: black;
     border: 3px solid black; 
@@ -54,7 +53,6 @@ color: black;
 
 .vertical-timeline-element-content bounce-in span{
     margin-left: 0;
-    width: 44%;
     border-radius: 50%;
     background-color: black !important;
     border: 6px solid black !important; 
@@ -66,9 +64,7 @@ color: black;
 .vertical-timeline-element-content{
     position: relative;
     border-radius: 0.25rem;
-    width: 32%;
     box-shadow: 0 3px 0 #ddd;
-    margin-left: 100px;
     background-color: #f3f4f6;
     padding: 1em;
     -webkit-box-shadow: 0 3px 0 #ddd;
@@ -111,7 +107,6 @@ color: black;
 
 #experience-2{
     float: right;
-    margin-right: 35px;
 }
 
 .vertical-timeline-element-date-2 {
@@ -126,11 +121,6 @@ color: black;
     font-weight: 500;
 }
 
-.vertical-timeline-element-icon bounce-in-2{
-    position: absolute;
-    left: 747px;
-}
-
 .vertical-timeline-element-date-2 span{
     color: var(--heading-text-color) !important;
 }
@@ -138,25 +128,27 @@ color: black;
     color: black !important;
 }
 
-.vertical-timeline.vertical-timeline--animate.vertical-timeline--two-columns {
-    width: 90%;
-    position: relative; /* Add relative positioning to create a stacking context */
-    margin: 39px auto; /* Center the timeline */
-}
-
-.vertical-timeline.vertical-timeline--animate.vertical-timeline--two-columns::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 50%; /* Adjust the position based on your layout */
-    border-left: 2px solid #ddd; /* Adjust the style of the line */
-    z-index: -1;
-}
 
 @media (max-width:768px) {
     .experience-s-heading{
         font-size: 1.5rem;
     }
+}
+
+/* Container for the experience items */
+.experience-container {
+    display: flex;
+    gap: 20px; /* Space between the two experience cards */
+    justify-content: space-between;
+    flex-wrap: wrap; /* Wrap to next line if screen size is small */
+}
+
+/* Individual experience item styling */
+.experience-item {
+    flex: 1;
+    min-width: 300px; /* Ensures proper size on smaller screens */
+    background: #ffffff; /* Optional: Add a background color */
+    padding: 20px; /* Add some padding */
+   
 }
 
