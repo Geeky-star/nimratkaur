@@ -21,9 +21,9 @@ export default function Education() {
         <div className="education-description">
           <ul className="education-list">
             <li>Specialized in different programming languages like JavaScript, Python, and Java.</li>
-            <li>Focused on core subjects such as Database Management Systems, Data Structures and Algorithms, Computer Networks, and Software Development Life Cycle.</li>
+            <li>Studied core subjects such as Database Management Systems, Data Structures and Algorithms, Computer Networks, and Software Development Life Cycle.</li>
             <li>Studied advanced topics in Mathematics, Data Analysis, Analytics, and Machine Learning.</li>
-            
+            <li>Built full-stack projects using MERN Stack and hands-on-experience building serverless applications using AWS.</li>
           </ul>
         </div>
       </div>
