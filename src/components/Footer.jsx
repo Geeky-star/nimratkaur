@@ -35,7 +35,7 @@ export default function Footer(){
         </a>
        </div>
        <div className='social-network-each-link' style={{color: "#cce4f0"}}>
-        <a className='social-links' href='https://www.youtube.com/channel/UCKYNxzmGu84kSZsQv4TfZkQ'>
+        <a className='social-links' href=''>
         <div className='social-link-img'>
         <img width="69" height="69" src="https://img.icons8.com/color/96/youtube-play.png" alt="youtube-play"/>
        </div>
