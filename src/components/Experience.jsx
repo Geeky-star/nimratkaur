@@ -21,10 +21,11 @@ function Experience() {
                             </div>
                         </div>
                         <p className="e-experience-description">
-                            Built Ericsson’s Root Cause Analyzer. It analyses the root cause of worst performing cells &
-                            nodes of the network. ERCA is an internal web application, to provide solutions for issues
-                            by maintaining a set of rules for each cell. Built frontend features, performed end-to-end
-                            testing, and deployed on internal production pipeline.
+                        Migrated legacy VanillaJS codebase to ReactJS with a modular architecture, improving readability and application performance by 40% through innovative design and implementation.
+Actively participated in task analysis & code review sessions, enhancing team efficiency and reducing the burndown rate by 15% through effective communication and collaboration.
+Identified unused AWS resources, delivering $30,000 in annual cost savings by optimizing resource allocation.
+Developed RESTful APIs using Flask & Python, ensuring reliability & security standards, which improved system robustness by 80%.
+
                         </p>
                     </div>
                 </div>
