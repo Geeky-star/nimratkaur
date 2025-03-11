@@ -21,10 +21,10 @@ function Experience() {
                             </div>
                         </div>
                         <p className="e-experience-description">
-                            Built Ericsson’s Root Cause Analyzer. It analyses the root cause of worst performing cells &
-                            nodes of the network. ERCA is an internal web application, to provide solutions for issues
-                            by maintaining a set of rules for each cell. Built frontend features, performed end-to-end
-                            testing, and deployed on internal production pipeline.
+                        Migrated legacy VanillaJS codebase to ReactJS with a modular architecture, improving readability and application performance by 40% through innovative design and implementation.
+Actively participated in task analysis & code review sessions, enhancing team efficiency and reducing the burndown rate by 15% through effective communication and collaboration.
+Identified unused AWS resources, delivering $30,000 in annual cost savings by optimizing resource allocation.
+
                         </p>
                     </div>
                 </div>
@@ -43,13 +43,14 @@ function Experience() {
                                 <p className="experience-designation" style={{ margin: '0' }}>
                                     DRDO, Delhi (May 2021 - August 2021)
                                 </p>
-                                <h3 className="experience-heading" style={{ margin: '0' }}>Research Intern</h3>
+                                <h3 className="experience-heading" style={{ margin: '0' }}>Front End Developer</h3>
                             </div>
                         </div>
                         <p className="e-experience-description">
-                            Researched “PRESENT Block Cipher” and built a deciphering mechanism using artificial neural
-                            networks. Developed a Sequential model for predicting bits of plain text at specific
-                            positions from cipher text.
+                        Developed a comprehensive Learning Management System (LMS) that facilitated seamless content creation, management, and publishing, increasing user engagement by 20%.
+Contributed to improving both developer and user experience by sharing insights on architecture design, code quality, and clear documentation, resulting in a 90% increase in development efficiency.
+Enhanced system performance by implementing .NET 6.0 & React, improving application speed and reliability. Collaborated with cross-functional teams to ensure project success, increasing project delivery efficiency.
+
                         </p>
                     </div>
                 </div>
