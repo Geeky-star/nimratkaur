@@ -23,8 +23,7 @@ function Experience() {
                         <p className="e-experience-description">
                         Migrated legacy VanillaJS codebase to ReactJS with a modular architecture, improving readability and application performance by 40% through innovative design and implementation.
 Actively participated in task analysis & code review sessions, enhancing team efficiency and reducing the burndown rate by 15% through effective communication and collaboration.
-Identified unused AWS resources, delivering $30,000 in annual cost savings by optimizing resource allocation.
-Developed RESTful APIs using Flask & Python, ensuring reliability & security standards, which improved system robustness by 80%.
+Identified unused AWS resources, delivering $30,000 in annual cost savings by optimizing resource allocation. Developed RESTful APIs using Flask & Python, ensuring reliability & security standards, which improved system robustness by 80%.
 
                         </p>
                     </div>
