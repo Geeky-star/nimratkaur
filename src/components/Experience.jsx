@@ -49,8 +49,7 @@ function Experience() {
                         <p className="e-experience-description">
                         Developed a comprehensive Learning Management System (LMS) that facilitated seamless content creation, management, and publishing, increasing user engagement by 20%.
 Contributed to improving both developer and user experience by sharing insights on architecture design, code quality, and clear documentation, resulting in a 90% increase in development efficiency.
-Enhanced system performance by implementing .NET 6.0 & React, improving application speed and reliability.
-Collaborated with cross-functional teams to ensure project success, increasing project delivery efficiency.
+Enhanced system performance by implementing .NET 6.0 & React, improving application speed and reliability. Collaborated with cross-functional teams to ensure project success, increasing project delivery efficiency.
 
                         </p>
                     </div>
