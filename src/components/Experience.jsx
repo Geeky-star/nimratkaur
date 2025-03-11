@@ -43,13 +43,15 @@ function Experience() {
                                 <p className="experience-designation" style={{ margin: '0' }}>
                                     DRDO, Delhi (May 2021 - August 2021)
                                 </p>
-                                <h3 className="experience-heading" style={{ margin: '0' }}>Research Intern</h3>
+                                <h3 className="experience-heading" style={{ margin: '0' }}>Front End Developer</h3>
                             </div>
                         </div>
                         <p className="e-experience-description">
-                            Researched “PRESENT Block Cipher” and built a deciphering mechanism using artificial neural
-                            networks. Developed a Sequential model for predicting bits of plain text at specific
-                            positions from cipher text.
+                        Developed a comprehensive Learning Management System (LMS) that facilitated seamless content creation, management, and publishing, increasing user engagement by 20%.
+Contributed to improving both developer and user experience by sharing insights on architecture design, code quality, and clear documentation, resulting in a 90% increase in development efficiency.
+Enhanced system performance by implementing .NET 6.0 & React, improving application speed and reliability.
+Collaborated with cross-functional teams to ensure project success, increasing project delivery efficiency.
+
                         </p>
                     </div>
                 </div>
