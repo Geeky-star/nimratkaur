@@ -30,7 +30,7 @@ function Tools() {
 
   return (
     <div className="tools-section">
-      <span className='tools-heading'>My SKILLS</span>
+      <span className='tools-heading'>SKILLS</span>
       {skills.map((category, index) => (
         <div key={index} className='skills-category'>
           <h3 className='category-title'>{category.category}</h3>

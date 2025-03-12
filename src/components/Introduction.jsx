@@ -11,12 +11,20 @@ export default function Introduction() {
                 <div>
                 <div className='text-content'>
                     <span className='name'>
-                        Hi there, I am
+                        Hi there👋, I am
                         <p style={{ margin: '0', fontSize: '3rem', color: '#208CCC', fontWeight: 'bolder' }}>Nimratpreet Kaur</p>
                     </span>
-                    <span className='roles'><span>A Software Engineer</span>, <span>Frontend Engineer</span>, <span>Mobile Application Developer</span></span>
-                    <span className='experience-description'>I demonstrate strong proficiency in Kotlin, Swift, and front-end technologies. I have utilized my programming skills to develop several mobile applications during my academic journey at George Brown College. I am committed to continuous learning and leveraging the latest technology to build mobile applications with optimal security, I am an excellent team collaborator with strong analytical and problem-solving skills.</span>
-               
+                    <span className='experience-description'>
+                      <p>
+                      I am a Software Developer passionate about building clean, accessible and responsive applications. I thrive in working collaboratively in intensive, fast-paced, and pressurized environments.
+                      
+                      </p>
+                       
+                        <p>
+                        When I'm not actively coding or debugging in my dreams, you'll find me walking with music on!🎧, at the gym 🏋️‍♀️, or watching k-dramas!
+                       
+                        </p>
+               </span>
                 </div>
                 
             <div className='intro-social'>
@@ -42,7 +50,7 @@ export default function Introduction() {
                     </a>
                 </div>
                 <div className='social-network-each-link'>
-                    <a className='social-links' href="mailto:" target="_blank" rel="noopener noreferrer">
+                    <a className='social-links' href="mailto:nimratofficial.engineer@gmail.com" target="_blank" rel="noopener noreferrer">
                         <div className='social-link-img'>
                             <i className="bi bi-envelope"></i>
                         </div>

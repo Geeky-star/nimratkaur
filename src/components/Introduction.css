@@ -8,11 +8,9 @@
     }
 
 .intro{
-    margin-top: 40px;
-    width: 90vh;
-    gap: 20px;
+    width: 90%;
+    gap: 100px;
     text-align: left;
-    margin-left: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
