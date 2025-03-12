@@ -1,8 +1,12 @@
 .experience-section{
-    margin-top: 52px;
+    display: flex;
     font-size: 40px;
     font-weight: 400;
     margin-top: 100px;
+    gap: 100px;
+    align-items: baseline;
+    margin-left: 5%;
+    margin-right: 5%;
 
 } 
 
@@ -21,21 +25,21 @@
 .experience-s-heading{
     margin-bottom: 100px;
     color: var(--heading-text-color);
-    font-size: 2.5rem;
-    line-height: 1;
+    font-size: 5rem;
+    line-height: 1.4;
     font-weight: 700;
 }
 
 .experience-heading{
 text-transform: capitalize;
 font-weight: 600;
-font-size: 1rem;
+font-size: 1.5rem;
 margin-bottom: 1rem;
 color: black;
 }
 
 .experience-designation{
-    font-size: 1rem;
+    font-size: 2rem;
     margin: 1em 0 0;
     line-height: 1.6;
     font-weight: 500;
@@ -138,6 +142,7 @@ color: black;
 /* Container for the experience items */
 .experience-container {
     display: flex;
+    flex-direction: column;
     gap: 20px; /* Space between the two experience cards */
     justify-content: space-between;
     flex-wrap: wrap; /* Wrap to next line if screen size is small */

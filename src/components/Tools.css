@@ -1,7 +1,7 @@
 .tools-heading{
-    font-size: 40px;
+    font-size: 3rem;
     color: var(--tools-heading);
-    font-family: Cyborg;
+    font-family: "Inconsolata", monospace;
     font-weight: 900;
     text-transform: uppercase;
     align-items: center;

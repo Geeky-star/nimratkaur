@@ -4,7 +4,7 @@ import iiitb from '../assets/iiitb.jpg';
 export default function Education() {
   return (
     <div className="education-container">
-      <span className="education-heading">My Education</span>
+      <span className="education-heading">EDUCATION</span>
       
       {/* IIIT Bhopal */}
       <div className="education-box">
