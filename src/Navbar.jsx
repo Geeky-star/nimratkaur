@@ -44,7 +44,6 @@ export default function Navbar() {
           <Link to={'/projects'} onClick={toggleMenu}>Projects</Link>
           <Link to={'/skills'} onClick={toggleMenu}>Skills</Link>
           <Link to={'/experience'} onClick={toggleMenu}>Experience</Link>
-          <Link to={'/education'} onClick={toggleMenu}>Education</Link>
         </nav>
       </div>
       <i className={`bi ${isDarkMode ? 'bi-sun-fill' : 'bi-moon-fill'}`} onClick={toggleTheme}></i>

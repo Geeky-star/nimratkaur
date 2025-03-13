@@ -1,17 +1,14 @@
 .footer-section{
-    color: white;
-    font-family: Cyborg;
-    margin: 0;
+    color: #F9FAFA;
     text-transform: capitalize;
-    background-color: #208CCC;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: inherit;
+    background-color: #1c1c1c;
+    margin-top: 30%;
+    position: relative;
+    
 }
 
-.footer-section-part-one{
-    font-weight: 100;
-    padding-left: 30px;
-    font-size: large;
+.footer-heading{
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 40px;
 }

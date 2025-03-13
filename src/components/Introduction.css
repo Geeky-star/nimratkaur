@@ -52,3 +52,92 @@
    font-size: 30px;
    color: grey;
 }
+
+.fa-sr-only, .fa-sr-only-focusable:not(:focus), .sr-only, .sr-only-focusable:not(:focus) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.typeContainer .text {
+    position: relative;
+    color: black;
+    font-size: 60px;
+}
+
+.typeContainer .secondText::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    
+    -webkit-animation: animate 3s steps(12) infinite;
+    animation: animate 3s steps(12) infinite;
+}
+
+.typeContainer .secondText::after {
+    content: ".";
+}
+
+.typeContainer {
+    display: inline-block;
+    font-size: 60px;
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid black; /* Cursor effect */
+    animation: blink 0.7s steps(2, start) infinite;
+}
+
+.typeContainer .secondText {
+    position: relative;
+    color: black;
+    font-size: 60px;
+    border-right: 3px solid black; /* Cursor effect */
+    animation: blink 0.7s steps(2, start) infinite;
+}
+
+@keyframes blink {
+    0% { border-color: transparent; }
+    100% { border-color: black; }
+}
+
+
+h2 {
+    font-size: clamp(1.75rem, 1.4489rem + 2.1307vw, 3rem);
+    line-height: 60px;
+    letter-spacing: 3.9px;
+    color: black;
+}
+
+.textContainer{
+    margin: 10px 0;
+    overflow: hidden;
+    text-align: left;
+}
+
+.about-section{
+    background-color: #F9FAFA;;
+}

@@ -3,7 +3,6 @@
     margin-top: 10px;
     z-index: 1100;
     position: relative;
-    background-color: white;
     border-radius: 45px;
     padding: 10px;
     display: flex;
@@ -16,7 +15,7 @@
     align-items: center;
     max-width: 1200px;
     margin: auto;
-    background-color: #208CCC;
+    background-color: #EEF1DA;
     /* padding: 10px; */
     border-radius: 20px;
     padding-left: 45px;
@@ -29,7 +28,7 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    border: 1px solid #208CCC;
+    border: 1px solid #000;
   }
   
   .nav-menu {
@@ -38,7 +37,7 @@
   }
   
   .nav-menu a {
-    color: white;
+    color: #000;
     font-weight: 600;
     font-size: 23px;
   }
@@ -59,13 +58,13 @@
   }
 
 body.light-theme {
-  --bg-color: #ffffff;
+  --bg-color: #d9dbf1;
   --text-color: #000000;
-  --nav-bg-color: #f0f0f0;
+  --nav-bg-color: #d9dbf1;
   --heading-bg-color: #ffffff;
   --heading-text-color:#000000;
   --intro-name-text: #000000;
-  --experience-desc: #000000;
+  --experience-desc: #1c1c1c;
   --social-network-img: #808080;
   --tools-heading:#000000;
   --box-content-bg-color: #ffffff;
