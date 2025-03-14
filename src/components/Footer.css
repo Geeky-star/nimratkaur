@@ -2,13 +2,24 @@
     color: #F9FAFA;
     text-transform: capitalize;
     background-color: #1c1c1c;
-    margin-top: 30%;
-    position: relative;
+    
     
 }
 
 .footer-heading{
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: 40px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 30px;
 }
+
+
+  /* Responsive Design for Mobile and Tablets */
+  @media (max-width: 768px) {
+   
+    .footer-section {
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      
+    }
+  }

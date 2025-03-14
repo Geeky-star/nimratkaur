@@ -44,8 +44,8 @@ export default function Introduction() {
                     Nimrat Preet Kaur
                 </h1>
                 <h2 className="typeContainer">
-                    <span className="text firstText">Web Developer & </span>
-                    <span className="sr-only">Creator</span>
+                    <span className="text firstText">Web Developer & &nbsp;</span>
+                    <span className="sr-only"></span>
                     <span className="text secondText chrome" aria-hidden="true">
                         {currentRole}
                     </span>
