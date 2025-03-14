@@ -1,26 +1,12 @@
-body{
+
+ html, body, #root {
+  height: 100%; 
+  margin: 0;
   background-color: #d9dbf1;
   font-family: "Inconsolata", monospace;
- }
-
- /* App.css */
-html, body {
-  height: 100%;
-  margin: 0;
 }
 
-.App {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background-color: #d9dbf1;
-}
 
-main {
-  flex: 1;
-  
-  background-color: #d9dbf1;
-}
 /* Introduction.css */
 .Introduction {
   display: flex;
@@ -32,18 +18,10 @@ main {
 .intro {
   width: 90vh;
   text-align: left;
-  margin-left: 20vh;
   display: flex;
   /* flex-direction: column; */
   align-items: center;
   justify-content: flex-end;
-}
-
-.avatar {
-  width: 400px;
-  height: 400px;
-  border-radius: 50%;
-  margin-right: 20px;
 }
 
 .text-content {
@@ -51,12 +29,6 @@ main {
   flex-direction: column;
 }
 
-.name p {
-  margin: 0;
-  font-size: 3rem;
-  color: #208CCC;
-  font-weight: bolder;
-}
 
 .roles {
   margin-top: 10px;
@@ -85,31 +57,11 @@ main {
   font-size: 2rem;
 }
 
-span{
-  color: white;
-}
-
-.name{
-  font-size: 20px;
-  color: #208CCC;
- 
-  align-items: center;
-  display: flex;
-  font-size: .85rem;
-  padding: 0.27rem 0.7rem;
-  border-radius: 12px;
-  width: max-content;
-}
-
 .roles{
   font-size: 2.6rem;  
   font-weight: 900;
   letter-spacing: .02em;
   text-align: left;
-}
-
-.roles span{
-  color: #208CCC;
 }
 
 .experience-description{
@@ -133,10 +85,6 @@ opacity: .8;
   padding-top: 10%;
 }
 
-.App {
-  text-align: center;
-  
-}
 
 .hero-icon{
 width: 100%;
@@ -159,4 +107,45 @@ width: 100%;
 .homepage-top-section{
  /* background-color: black; */
   height: 730px;
+}
+
+/* Ensure the body and html take full height */
+
+
+/* Flexbox for App */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 180vh; /* Full height of viewport */
+  background-color: #d9dbf1;
+  text-align: center;
+}
+
+/* Allow main content to grow and push footer to bottom */
+main {
+  flex: 1; /* Pushes the footer down */
+  padding: 1rem;
+  background-color: #d9dbf1;
+}
+
+/* Footer Styling (Optional) */
+footer {
+  background-color: #1c1c1c;
+  color: white;
+  padding: 1rem;
+  
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Responsive Design for Mobile and Tablets */
+@media (max-width: 768px) {
+  .App {
+    min-height: 260vh;
+  }
+
+  main {
+    flex: 1;
+    padding: 1rem;
+  }
 }
