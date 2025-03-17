@@ -4,7 +4,6 @@ import gsrimmi from './gsrimmi.png';
 import birthday from './birthday.png';
 import ecommerce from './shopping.png';
 import todo from './todo.png';
-import './ProjectsPage.css';
 import './projects.css';
 import studentMgmt from './StudentMgmt.png';
 import '../Navbar.css';
@@ -13,7 +12,7 @@ function ProjectsPage(){
     return(
         <div>
         <div className='projects-page-section'>
-        <h1 className='project-heading'>Projects</h1>
+        <h1 className='project-heading'>Projects.</h1>
         <div className='project-page-section'>
         <div className='single-project'>
            

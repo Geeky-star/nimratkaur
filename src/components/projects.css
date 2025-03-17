@@ -1,106 +1,149 @@
+:root {
+    --heading-text-color: #000000;
+    --heading-bg-color: rgba(0, 0, 0, 0.7);
+    --primary-color: #4f46e5;
+    --secondary-color: #e5e7eb;
+    --accent-color: #6d28d9;
+}
 
-.project-heading{
-    
-    font-size: 3rem;
+.project-heading {
+    font-size: 4rem;
     color: var(--heading-text-color);
     font-family: "Inconsolata", monospace;
     font-weight: bold;
-    text-transform: uppercase;
-    align-items: center;
-    background-color: var(--heading-bg-color);
-    border-radius: 12px;
-    padding: 0.8rem 2rem;
-    width: max-content;
+    padding: 1rem 2.5rem;
+    border-radius: 14px;
     margin-bottom: 3rem;
+    transition: transform 0.3s ease;
 }
 
-.project-tech-stack{
+.project-heading:hover {
+    transform: translateY(-5px);
+    color: #000000;
+    background: none;
+}
+
+.project-section {
     display: flex;
-    gap: 10px;
+    flex-direction: column;
+    gap: 60px;
 }
 
-.project-tech-stack-svg{
+.single-project {
     display: flex;
     align-items: center;
-    gap: 10px;
-}
-
-.project-tech-stack-svg svg{
-    width: 40px;
-    height: 40px;
-}
-
-.project-links{
-    display: flex;
-    gap: 10px;
-    font-weight: 700;
-    align-items: center;
-}
-
-.project-links svg{
-    width: 40px;
-    height: 40px;
-}
-
-
-.single-project{
-    display: flex;
-    width: 150vh;
-    height: 300px;
-    margin: auto;
-    background-color: #F9FAFA;
-    justify-content: space-between;
-    border-radius: 12px;   
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
     margin-bottom: 20px;
 }
 
-.single-project img{
-width: 400px;
-color: transparent;
---tw-rotate: -2deg;
-transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-border-radius: 0px 10px 10px 0px
+.single-project:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.2);
 }
 
-.project-section{
+.single-project img {
+    width: 420px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 16px 16px 0;
+    transition: transform 0.3s ease;
+}
+
+.single-project:hover img {
+    transform: scale(1.05);
+}
+
+.project-desc-section {
+    padding: 30px;
     display: flex;
     flex-direction: column;
-    gap: 84px;
+    gap: 12px;
 }
 
-.project-titles{
-    font-size: 1.5rem;
-    line-height:  2rem;
-    font-weight: 600;
-}
-
-.project-tech-stack p{
-    --tw-text-opacity:1;
-    color: rgb(107 114 128/var(--tx-text-opacity));
+.project-titles {
+    font-size: 1.8rem;
     font-weight: 700;
+    color: var(--primary-color);
+    letter-spacing: 0.5px;
 }
 
-.project-desc-section{
+.project-tech-stack {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin: 37px 50px 20px 50px;
-    gap: 7px;
-    text-align: justify;
+    flex-wrap: wrap;
+    gap: 8px;
 }
 
-@media(max-width:768px){
-    .single-project{
-        display: flex;
+.project-tech-stack-svg {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.project-tech-stack-svg svg {
+    width: 32px;
+    height: 32px;
+    color: var(--accent-color);
+    transition: transform 0.3s ease;
+}
+
+.project-tech-stack-svg svg:hover {
+    transform: rotate(10deg) scale(1.1);
+}
+
+.project-links {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.project-links a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.project-links svg {
+    width: 28px;
+    height: 28px;
+    color: var(--primary-color);
+    transition: transform 0.3s ease;
+}
+
+.project-links a:hover {
+    color: var(--accent-color);
+}
+
+.project-links svg:hover {
+    transform: scale(1.2);
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .single-project {
         flex-direction: column;
+        width: 100%;
         height: auto;
-        margin-bottom: 15px;
+        padding: 16px;
     }
-    .project-tech-stack-svg{
-        display: inline-block;
+
+    .single-project img {
+        width: 70%;
+        border-radius: 12px;
     }
-    .single-project img{
-       width: 100%;
+
+    .project-heading {
+        font-size: 2rem;
+        padding: 0.7rem 1.5rem;
     }
 }

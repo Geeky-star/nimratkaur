@@ -39,7 +39,8 @@
   .nav-menu a {
     color: #000;
     font-weight: 600;
-    font-size: 23px;
+    font-size: 2rem;
+    padding: 10px;
   }
 
   
@@ -52,7 +53,7 @@
   .menu-icon div {
     width: 25px;
     height: 3px;
-    background-color: white;
+    background-color: #1c1c1c;
     margin: 4px 0;
     transition: 0.4s;
   }
@@ -109,7 +110,7 @@ body {
 
 .project-heading{
   color: var(--heading-text-color);
-  background-color: var(--heading-bg-color);
+  
 }
 
 .experience-description{
@@ -126,7 +127,7 @@ body {
       position: absolute;
       top: 60px;
       right: 0;
-      background-color: #208CCC;
+      background-color: #EEF1DA;
       width: 100%;
       text-align: center;
       border-radius: 0 0 10px 10px;
@@ -138,18 +139,22 @@ body {
   
     .menu-icon {
       display: block;
+      color: #000;
     }
   
     .menu-icon.open .bar1 {
       transform: rotate(-45deg) translate(-5px, 6px);
+      color: #000;
     }
   
     .menu-icon.open .bar2 {
       opacity: 0;
+      color: #000;
     }
   
     .menu-icon.open .bar3 {
       transform: rotate(45deg) translate(-5px, -6px);
+      color: #000;
     }
   }
 
