@@ -1,13 +1,11 @@
-
- html, body, #root {
+html, body, #root {
   height: 100%; 
   margin: 0;
   background-color: #d9dbf1;
   font-family: "Inconsolata", monospace;
 }
 
-
-/* Introduction.css */
+/* Introduction Section */
 .Introduction {
   display: flex;
   flex-direction: column;
@@ -16,10 +14,11 @@
 }
 
 .intro {
-  width: 90vh;
+  width: 90%;
+  max-width: 1200px;  /* Limit max width */
   text-align: left;
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   align-items: center;
   justify-content: flex-end;
 }
@@ -28,7 +27,6 @@
   display: flex;
   flex-direction: column;
 }
-
 
 .roles {
   margin-top: 10px;
@@ -57,95 +55,130 @@
   font-size: 2rem;
 }
 
-.roles{
-  font-size: 2.6rem;  
+.roles {
+  font-size: 2.6rem;
   font-weight: 900;
-  letter-spacing: .02em;
+  letter-spacing: 0.02em;
   text-align: left;
 }
 
-.experience-description{
-font-size: 24px;
-line-height: 35px;
-
-font-weight: 700;
-letter-spacing: .04em;
-margin: 0.2rem;
-opacity: .8;
+.experience-description {
+  font-size: 24px;
+  line-height: 35px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  margin: 0.2rem;
+  opacity: 0.8;
 }
 
-.heading-section{
+.heading-section {
   padding-top: 10%;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
   animation: fadeInLeft 2s ease forwards;
   margin-bottom: 5rem;
   padding: 90px;
-  padding-top: 10%;
 }
 
-
-.hero-icon{
-width: 100%;
+.hero-icon {
+  width: 100%;
 }
 
-.heading-intro{
+.heading-intro {
   display: flex;
   flex-direction: column;
   margin-top: 80px;
 }
 
-.homepage-top{
-  /*  background-image: url("/src/components/background.svg");
-    background-size: cover; */
-    width: 1517px;
-    height: 590px;
-   
+.homepage-top {
+  width: 100%;
+  height: auto;  /* Make the image responsive */
 }
 
-.homepage-top-section{
- /* background-color: black; */
-  height: 730px;
+.homepage-top-section {
+  height: auto; /* Adjust height for smaller screens */
 }
-
-/* Ensure the body and html take full height */
-
 
 /* Flexbox for App */
 .App {
   display: flex;
   flex-direction: column;
-  min-height: 180vh; /* Full height of viewport */
+  min-height: 100vh; /* Full height of viewport */
   background-color: #d9dbf1;
   text-align: center;
 }
 
-/* Allow main content to grow and push footer to bottom */
+/* Main content area */
 main {
-  flex: 1; /* Pushes the footer down */
   padding: 1rem;
   background-color: #d9dbf1;
 }
 
-/* Footer Styling (Optional) */
+/* Footer Styling */
 footer {
   background-color: #1c1c1c;
   color: white;
   padding: 1rem;
-  
   font-weight: bold;
   text-align: center;
 }
 
 /* Responsive Design for Mobile and Tablets */
 @media (max-width: 768px) {
+  /* Adjust main content padding */
+  main {
+    padding: 0rem;
+  }
+
+  .intro {
+    width: 95%; /* Make intro take full width on smaller screens */
+  }
+
+  .roles {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+  }
+
+  .experience-description {
+    font-size: 18px; /* Smaller font size */
+  }
+
+  .heading-section {
+    padding: 20px; /* Reduce padding for smaller screens */
+    margin-bottom: 2rem;
+  }
+
+  .hero-icon {
+    width: 80%; /* Reduce width for smaller screens */
+  }
+}
+
+@media (min-width: 800px) {
   .App {
-    min-height: 260vh;
+    height: 100%;
   }
 
   main {
     flex: 1;
-    padding: 1rem;
+    padding: 0rem;
+  }
+
+  .heading-section {
+    padding: 90px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Further adjustments for very small devices */
+  .roles {
+    font-size: 1.8rem; /* Reduce font size for small screens */
+  }
+
+  .experience-description {
+    font-size: 16px;
+  }
+
+  .intro {
+    width: 100%;
   }
 }
