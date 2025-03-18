@@ -1,0 +1,21 @@
+.blog-heading{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.blog p{
+    text-align: center;
+    font-size: 10rem;
+}
+
+@media (max-width:700px){
+   .blog-p{
+    text-align: left;
+    font-size: 10rem;
+    padding: 10px;
+   }
+   .blogs{
+    
+    min-height: 53vh;
+   }
+}

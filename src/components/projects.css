@@ -1,19 +1,18 @@
 :root {
     --heading-text-color: #000000;
     --heading-bg-color: rgba(0, 0, 0, 0.7);
-    --primary-color: #4f46e5;
+    --primary-color: #1c1c1c;
     --secondary-color: #e5e7eb;
     --accent-color: #6d28d9;
 }
 
 .project-heading {
-    font-size: 4rem;
+    font-size: 6rem;
     color: var(--heading-text-color);
     font-family: "Inconsolata", monospace;
     font-weight: bold;
     padding: 1rem 2.5rem;
-    border-radius: 14px;
-    margin-bottom: 3rem;
+    margin-bottom: 8rem;
     transition: transform 0.3s ease;
 }
 
@@ -29,15 +28,22 @@
     gap: 60px;
 }
 
+.project-page-section{
+    display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 10px;
+        row-gap: 40px;
+        padding: 1%;
+}
 .single-project {
+    width: 40vw;
     display: flex;
     align-items: center;
+    flex-direction: column;
     gap: 20px;
-    background: rgba(255, 255, 255, 0.1);
+    background-color: white;
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 16px;
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     overflow: hidden;
     margin-bottom: 20px;
@@ -61,23 +67,24 @@
 }
 
 .project-desc-section {
-    padding: 30px;
+    padding: 20px;
+    text-align: justify;
     display: flex;
     flex-direction: column;
     gap: 12px;
+    font-size: 2rem;
 }
 
-.project-titles {
-    font-size: 1.8rem;
+.project-titles {font-size: 3rem;
     font-weight: 700;
     color: var(--primary-color);
-    letter-spacing: 0.5px;
-}
+    letter-spacing: 0.5px;}
 
 .project-tech-stack {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
+    font-size: 2rem;
 }
 
 .project-tech-stack-svg {
@@ -101,6 +108,7 @@
     display: flex;
     gap: 12px;
     align-items: center;
+    font-size: 2rem;
 }
 
 .project-links a {
@@ -129,10 +137,19 @@
 }
 
 /* Mobile Styles */
-@media (max-width: 768px) {
+@media (max-width: 1400px) {
+
+    .project-page-section{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 4px;
+    }
+
     .single-project {
         flex-direction: column;
-        width: 100%;
+        width: 85%;
         height: auto;
         padding: 16px;
     }
@@ -147,3 +164,4 @@
         padding: 0.7rem 1.5rem;
     }
 }
+

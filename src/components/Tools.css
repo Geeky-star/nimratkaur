@@ -1,9 +1,8 @@
 .tools-heading{
-    font-size: 3rem;
+    font-size: 4rem;
     color: var(--tools-heading);
     font-family: "Inconsolata", monospace;
     font-weight: 900;
-    text-transform: uppercase;
     align-items: center;
     border-radius: 12px;
     display: flex;
@@ -39,8 +38,6 @@
 }
 
 .box-icon{
-    width: 78px;
-    height: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,20 +45,16 @@
 }
 
 .box-content{
-    align-items: center;
-    background: var(--box-content-bg-color);
-    color: var(--box-content-text-color);
-    border-radius: 8px;
-    display: flex;
-    flex: 0 1 18%;
-    height: 60px;
-    justify-content: space-evenly;
-    margin: 1%;
-    width: 130px;
-    font-weight: 600;
-    justify-content: center;
-    align-items: center;
-}
+  display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      /* background-color: #f9f9f9; */
+      border-radius: 8px;
+      padding: 20px;
+      /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+      width: max-content;
+      text-align: center;}
 
 .icon{
     height: 100%;
@@ -85,22 +78,21 @@
   }
   
   .tools-heading {
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: bold;
     margin-bottom: 20px;
   }
   
   .skills-category {
     width: 100%;
-    max-width: 1200px;
     margin-bottom: 20px;
   }
   
   .category-title {
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-weight: bold;
-    color: #208CCC;
-    margin-bottom: 10px;
+    color: #1c1c1c;
+    margin-bottom: 40px;
   }
   
   .skills {
@@ -110,27 +102,14 @@
     justify-content: center;
   }
   
-  .box-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 150px;
-    text-align: center;
-  }
-  
   .box-icon img {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     margin-bottom: 10px;
   }
   
   .box-icon span {
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 400;
   }
   
