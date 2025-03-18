@@ -30,7 +30,7 @@ function Tools() {
 
   return (
     <div className="tools-section">
-      <span className='tools-heading'>SKILLS</span>
+      <span className='tools-heading'>Skills.</span>
       {skills.map((category, index) => (
         <div key={index} className='skills-category'>
           <h3 className='category-title'>{category.category}</h3>
@@ -39,7 +39,7 @@ function Tools() {
               <div key={idx} className='box-content'>
                 <div className='box-icon'>
                   <img src={tool.image} alt={tool.skill} />
-                  <span style={{color:'black'}}>{tool.skill}</span>
+                  <span style={{color:'black',lineHeight:'40px',fontSize:'2rem'}}>{tool.skill}</span>
                 </div>
               </div>
             ))}

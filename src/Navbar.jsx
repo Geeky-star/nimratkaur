@@ -43,7 +43,7 @@ export default function Navbar() {
         <nav className={`nav-menu ${isOpen ? 'open' : ''}`}>
           <Link to={'/projects'} onClick={toggleMenu}>Projects</Link>
           <Link to={'/skills'} onClick={toggleMenu}>Skills</Link>
-          <Link to={'/experience'} onClick={toggleMenu}>Experience</Link>
+          <Link to={'/blogs'} onClick={toggleMenu}>Blogs</Link>
         </nav>
       </div>
       <i className={`bi ${isDarkMode ? 'bi-sun-fill' : 'bi-moon-fill'}`} onClick={toggleTheme}></i>
